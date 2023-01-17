@@ -1,7 +1,7 @@
 services:
   # A Docker web service
   - type: web
-    name: wh
+    name: wired
     env: docker
     repo: https://github.com/cosmicqbit/alist-render.git # optional
     region: oregon # optional (defaults to oregon)
